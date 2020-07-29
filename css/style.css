@@ -1,0 +1,292 @@
+* {
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 4;
+}
+
+.casestudy {
+    position: relative;    
+    width: 100%;
+    display: flex;
+    height: 100px;
+}
+
+.navigation_am {
+    font-family: 'Montserrat', Times, serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.navigation_am, .navigation_am a {
+    color: white
+}
+
+.overlay_am {
+    background: rgb(132,0,0);
+}
+
+.portfolio_cs {
+    margin-top: 150px;
+    margin-left: 20%;
+}
+
+.leacock_main {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 180%;
+}
+
+.logo {
+    width: 40px;
+    position: absolute;
+    margin: -20px 10px 10px -20px;
+}
+
+.social img {
+    margin-left: 50px;
+    width: 30px;
+}
+
+h1 {
+    font-family: 'Droid Serif', Times, serif;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Montserrat', Times, serif;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 15px;
+}
+
+h3 {
+    font-family: 'Montserrat', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Montserrat', Times, serif;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+p {
+    font-family: 'Droid serif', Times, serif;
+    font-size: 12px;
+}
+
+.overlay_am h1, .overlay_am h2, .overlay_am p, .overlay_am h3 {
+    color: white;
+}
+
+.right_am {
+    margin-top: 150px;
+}
+
+.black_font a {
+    color: black;
+}
+
+.jump_to {
+    padding: 1.5%;
+}
+
+.jump_to a {
+    color: #999999;
+    font-family: 'Montserrat';
+}
+
+.jump_to a:hover {
+    text-decoration: underline;
+}
+
+.overview {
+    margin-left: 45%;
+    padding: 3%;
+}
+
+.overview h4 {
+    color: #BB0000;
+    font-family: 'Montserrat', Times, serif;
+    font-size: 18px;
+}
+
+.overview h3 {
+    font-weight: bold;
+}
+
+.leacock_navigation {
+    position: fixed;
+    top: 20px;
+    padding: 5%;
+    display: none;
+}
+
+.leacock_navigation img {
+    width: 100%;
+}
+
+.leacock_navigation h2 {
+    font-size: 45px;
+}
+
+.leacock_navigation h3 {
+    padding: 2%;
+}
+
+.leacock_navigation a {
+    color: white;
+}
+
+/* RESEARCH SECTION -----------------------------------------------------------------------------*/
+
+#research {
+    margin-top: 50px;
+    padding: 3%;
+}
+
+#research h3, #def h3 {
+    color:  #BB0000;
+}
+
+.arrow1 {
+    width: 100px;
+    margin-top: 80px;
+}
+
+.sample_qn {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.arrow2 {
+    width: 80px;
+}
+
+.quotes {
+    margin-top: 10px;
+}
+
+.quote_left {
+    text-align: right;
+}
+
+.quote_right {
+    text-align: left;
+}
+
+.quote_detail {
+    color: #404040;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.user {
+    font-family: 'Montserrat';
+}
+
+/* DEFINITION & IDEATION -----------------------------------------------------------------------------*/
+#affinityDiagram, #howMightWe {
+    width: 100%;
+    cursor: zoom-in;
+}
+
+.affinity_diagram_modal, .howMightWe {
+    width: 1000px;
+
+}
+
+.spacing {
+    margin-top: 30px;
+}
+
+.problemStatement p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blue_ps {
+    color: #163D7C;
+}
+
+.red_ps {
+    color: #B22929;
+}
+
+.purple_ps {
+    color: #4E177E;
+}
+
+
+
+
+
+/* FOOTER -----------------------------------------------------------------------------*/
+footer {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-color: black;
+    position: relative;
+}
+
+footer p {
+    color: white;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+@media only screen and (max-height:500px) {
+    .scroll {
+        display: none;
+    }
+}
+
+/* MEDIA QUERIES -----------------------------------------------------------------------------*/
+
+@media only screen and (max-width:1063px) {
+   
+}
+
+@media only screen and (max-width:800px) {
+    
+}
