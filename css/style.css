@@ -144,10 +144,9 @@ p {
 }
 
 .leacock_navigation {
-    position: fixed;
-    top: 20px;
     padding: 5%;
-    display: none;
+    position: sticky;
+    top: 0;
 }
 
 .leacock_navigation img {
@@ -159,7 +158,7 @@ p {
 }
 
 .leacock_navigation h3 {
-    padding: 2%;
+    padding: 4%;
 }
 
 .leacock_navigation a {
@@ -173,7 +172,7 @@ p {
     padding: 3%;
 }
 
-#research h3, #def h3 {
+#research h3, #def h3, #prototype h3 {
     color:  #BB0000;
 }
 
@@ -219,7 +218,7 @@ p {
 }
 
 /* DEFINITION & IDEATION -----------------------------------------------------------------------------*/
-#affinityDiagram, #howMightWe {
+#affinityDiagram, #howMightWe, #effortDiagram {
     width: 100%;
     cursor: zoom-in;
 }
@@ -251,8 +250,22 @@ p {
     color: #4E177E;
 }
 
+#effortDiagram {
+    width: 150%;
+}
 
+.effortDiagram {
+    width: 100%;
+}
 
+.arrow4 {
+    width: 120px;
+}
+
+/* PROTOTYPE SECTION -----------------------------------------------------------------------------*/
+#prototype img {
+ width: 100%;
+}
 
 
 /* FOOTER -----------------------------------------------------------------------------*/
